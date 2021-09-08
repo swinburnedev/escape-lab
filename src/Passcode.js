@@ -20,7 +20,7 @@ const Passcode = ({secret}) => {
     
   return (
     <>
-      <form onSubmit={checkCode}>
+      <form onSubmit={checkCode} autoComplete="off">
         <label htmlFor="passcode">Enter code:</label>
         <input
           id="passcode"
@@ -29,6 +29,7 @@ const Passcode = ({secret}) => {
           placeholder="******"
           onChange={handleChange}
           maxLength="6"
+          autoComplete="off"
         />
         <button type="submit">Submit</button>
         { showMessage() }

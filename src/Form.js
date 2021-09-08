@@ -11,8 +11,8 @@ const Form = () => {
   }
 
   return (
-    <form autocomplete="off">
-      <select onChange={handleChange} autocomplete="off">
+    <form>
+      <select onChange={handleChange}>
         <option>-- Select a topic --</option>
         <option value="science-enquiry">Science Enquiry</option>
         <option value="science-skills-1">Science Skills 1</option>
