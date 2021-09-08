@@ -32,7 +32,7 @@ const App = () => {
               <Page title="Science Skills 2" secret={743998} />
             </Route>
             <Route path="/lab-safety">
-              <Page title="Lab Safety" secret={123456} />
+              <Page title="Lab Safety" secret={381645} />
             </Route>
           </Switch>
         </div>
