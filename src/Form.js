@@ -4,15 +4,15 @@ import {
 } from "react-router-dom";
 
 const Form = () => {
-    let history = useHistory();
+  let history = useHistory();
 
   function handleChange(e) {
     history.push(e.target.value);
   }
 
   return (
-    <form>
-      <select onChange={handleChange}>
+    <form autocomplete="off">
+      <select onChange={handleChange} autocomplete="off">
         <option>-- Select a topic --</option>
         <option value="science-enquiry">Science Enquiry</option>
         <option value="science-skills-1">Science Skills 1</option>
